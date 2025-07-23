@@ -51,9 +51,25 @@ header{
     color: black;
 }
 .cart i{
-    font-size: 25px;
+    font-size: 1.5rem;
     margin-right: 10px;
     margin-left: 20px;
 }
 
 /* Header Done */
+
+
+
+
+
+/* Mobile Responsive */
+
+@media (max-width: 361px){
+    header img{
+        width: 63px;
+        height: 38px;
+    }
+    .menu{
+        display: none;
+    }
+}
