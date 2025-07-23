@@ -13,7 +13,6 @@
 }
 
 /* Header */
-
 header{
     max-width: 1140px;
     margin: 0 auto;
@@ -55,8 +54,52 @@ header{
     margin-right: 10px;
     margin-left: 20px;
 }
-
 /* Header Done */
+
+/* Banner */
+.banner{
+    max-width: 1140px;
+    height: 461px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+}
+.banner-title{
+    max-width: 470px;
+}
+.banner-title h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.banner-title P{
+    font-size: 1.2rem;
+}
+#banneralways{
+    color: black;
+}
+.banner-img img{
+    width: 100%;
+}
+/* Banner Done */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -64,7 +107,11 @@ header{
 
 /* Mobile Responsive */
 
-@media (max-width: 361px){
+@media (max-width: 393px){
+    /* Header */
+    header{
+    max-width: 361px;
+    }
     header img{
         width: 63px;
         height: 38px;
@@ -72,4 +119,28 @@ header{
     .menu{
         display: none;
     }
+    /* Header Done */
+
+    /* Banner */
+    .banner{
+    display: grid;
+    }
+    .banner-title h1{
+        font-size: 2rem;
+    }
+    .banner-title p{
+        font-size: 1rem;
+    }
+    .banner-img{
+        order: 1;
+        width: 393px;
+        margin: 0 auto;
+    }
+    .banner-title{
+        order: 2;
+        width: 361px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    /* Banner Done */
 }
