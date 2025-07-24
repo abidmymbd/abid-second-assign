@@ -279,10 +279,9 @@ header{
     grid-gap: none;
     }
     .pls-title{
-    height: 597px;
-    display: flex;
+    height: 240px;
     align-items: baseline;
-    justify-content: center;
+    justify-content: left;
     }
     .pls-title-box h1{
         font-size: 1.5rem;
@@ -293,8 +292,8 @@ header{
         margin-bottom: 1.3rem;
         margin-left: 30px;
     }
-
     .trusted-seller{
         display: none;
     }
+    /* PLS Done */
 }
