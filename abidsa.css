@@ -6,7 +6,7 @@
 
 
 .primary-color{
-    color: rgba(233, 90, 8, 1);
+    color: #e95a08;
 }
 .secondary-color{
     color: rgba(0, 0, 0, 0.5);
@@ -64,6 +64,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: self-end;
+    margin-bottom: 70px;
 }
 .banner-title{
     max-width: 470px;
@@ -83,7 +84,61 @@ header{
 }
 /* Banner Done */
 
-
+/* Plant  */
+.plant-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.plant-title{
+    text-align: center;
+}
+.plant-title h1{
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+.plant-title p{
+    font-size: 1.2rem;
+    max-width: 680px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#plantid{
+    color: black;
+}
+.plant-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.plant-box-all{
+    text-align: center;
+}
+.plant-box-all img{
+    width: 100%;
+}
+.plant-box-all h1{
+    font-size: 1.4rem;
+    margin: 15px 0;
+    font-weight: 600;
+}
+.plant-box-all h2{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+.plant-box-all button{
+    width: 100%;
+    padding: 15px 0;
+    background-color: #e95a08;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+/* Plant Done */
 
 
 
@@ -129,11 +184,11 @@ header{
         font-size: 2rem;
     }
     .banner-title p{
-        font-size: 1rem;
+        font-size: .9rem;
     }
     .banner-img{
         order: 1;
-        width: 393px;
+        width: 100%;
         margin: 0 auto;
     }
     .banner-title{
@@ -143,4 +198,34 @@ header{
         margin-bottom: 30px;
     }
     /* Banner Done */
+
+    /* Plant Section */
+    .plant-section{
+    max-width: 361px;
+    margin: 0 auto;
+    margin-top: -40px;
+    }
+    .plant-title h1{
+        font-size: 1.5rem;
+    }
+    .plant-title p{
+        font-size: .9rem;
+    }
+    .plant-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .plant-box-all h1{
+    font-size: 1.2rem;
+    }
+    .plant-box-all h2{
+    font-size: 1.2rem;
+    }
+    .plant-box-all button{
+    font-size: .9rem;
+    }
+    #forhide{
+        display: none;
+    }
+    /* Plant Done */
 }
