@@ -9,7 +9,7 @@
     color: #e95a08;
 }
 .secondary-color{
-    color: rgba(0, 0, 0, 0.5);
+    color: #00000080;
 }
 
 /* Header */
@@ -187,6 +187,54 @@ header{
     left: 370px;
     top: -130px;
 }
+/* PLS Done */
+
+/* Join Section */
+.join{
+    background-image: url(./assets/news-letter-bg.png);
+    height: 540px;
+    background-size: cover;
+    margin-bottom: 80px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.join-info h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.inputbox input{
+    width: 450px;
+    padding: 15px 20px;
+    border: none;
+    margin-right: -5px;
+    color: #00000080;
+    font-size: 1.2rem;
+}
+.inputbox button{
+    width: 190px;
+    padding: 15px 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: #e95a08;
+    font-size: 1.2rem;
+}
+/* Join Done */
+
+
+
+
+
+
+
+
+
 
 
 
@@ -296,4 +344,28 @@ header{
         display: none;
     }
     /* PLS Done */
+
+    /* Join */
+    .join{
+    height: 270px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    }
+    .join-info{
+        max-width: 320px;
+    }
+    .join-info h1{
+        font-size: 1.5rem;
+    }
+    .inputbox input{
+        width: 190px;
+        padding: 12px 12px;
+        font-size: .8rem;
+    }
+    .inputbox button{
+        width: 90px;
+        padding: 12px 12px;
+        font-size: .8rem;
+    }
+    /* Join Done */
 }
