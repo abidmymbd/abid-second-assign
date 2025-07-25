@@ -12,6 +12,11 @@
     color: #00000080;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* Header */
 header{
     max-width: 1140px;
@@ -58,9 +63,7 @@ header{
 
 /* Banner */
 .banner{
-    max-width: 1140px;
     height: 461px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: self-end;
@@ -86,8 +89,6 @@ header{
 
 /* Plant  */
 .plant-section{
-    max-width: 1140px;
-    margin: 0 auto;
     margin-bottom: 60px;
 }
 .plant-title{
@@ -143,8 +144,6 @@ header{
 /* Plants Lover Section */
 
 .plants-lover-section{
-    max-width: 1140px;
-    margin: 0 auto;
     margin-top: 200px;
     margin-bottom: 130px;
 
@@ -227,6 +226,47 @@ header{
 }
 /* Join Done */
 
+/* Footer */
+footer{
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo p{
+    font-size: 1.2rem;
+    max-width: 250px;
+}
+.footer-menu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 30px;
+}
+.footer-menu li{
+    list-style: none;
+}
+.footer-menu li a{
+    color: #00000080;
+    text-decoration: none;
+}
+.footer-social2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+
+    align-items: center;
+    justify-items: center;
+}
+.footer-social li{
+    list-style: none;
+}
+
+
+/* Footer Done */
+
 
 
 
@@ -250,10 +290,10 @@ header{
 
 /* Mobile Responsive */
 
-@media (max-width: 393px){
+@media (max-width: 576px){
     /* Header */
     header{
-    max-width: 361px;
+    max-width: 576px;
     }
     header img{
         width: 63px;
@@ -281,7 +321,7 @@ header{
     }
     .banner-title{
         order: 2;
-        width: 361px;
+        width: 570px;
         margin: 0 auto;
         margin-bottom: 30px;
     }
@@ -289,7 +329,7 @@ header{
 
     /* Plant Section */
     .plant-section{
-    max-width: 361px;
+    max-width: 576px;
     margin: 0 auto;
     margin-top: -40px;
     }
@@ -320,7 +360,7 @@ header{
     /* PLS Section */
 
     .plants-lover-section{
-    max-width: 361px;
+    max-width: 576px;
     margin: 0 auto;
     margin-top: 80px;
     grid-template-columns: repeat(1, 1fr);
@@ -352,7 +392,7 @@ header{
     margin-bottom: 60px;
     }
     .join-info{
-        max-width: 320px;
+        max-width: 520px;
     }
     .join-info h1{
         font-size: 1.5rem;
@@ -368,4 +408,26 @@ header{
         font-size: .8rem;
     }
     /* Join Done */
+
+    /* Footer */
+    footer{
+    max-width: 570px;
+    display: grid;
+    margin: 0 auto;
+    margin-left: 10px;
+    }
+    .footer-logo p{
+        font-size: .9rem;
+        margin: 20px 0;
+    }
+    .footer-menu{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 25px;
+        margin-bottom: 30px;
+    }
+    .footer-social2{
+        margin-bottom: 40px;
+    }
+    /* Footer Done */
 }
