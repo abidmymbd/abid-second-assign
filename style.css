@@ -479,6 +479,7 @@ footer{
     }
     .small-img-2{
         margin-top: 0px;
+        order: -1;
     }
     .big-img{
         min-height: 205px;
