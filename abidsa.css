@@ -188,6 +188,108 @@ header{
 }
 /* PLS Done */
 
+/* Latest Deals */
+.latest-deals{
+    margin: 70px auto;
+}
+.latest-deals-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+#latestc{
+    color: #e95a08;
+}
+.latest-deals-title h1{
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+.latest-deals-title p{
+    max-width: 700px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
+
+.latest-deals-img{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+.small-img-1{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./assets/deal-bloom.png);
+    width: 100%;
+    height: 205px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.small-img-1 h1{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.small-img-1 a{
+    color: white;
+    margin-top: -80px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.small-img-2{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/deal-ana.png);
+    width: 100%;
+    height: 205px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -225px;
+    border-radius: 15px;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.small-img-2 h1{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.small-img-2 a{
+    color: white;
+    margin-top: -80px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.big-img{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./assets/deal-zabo.png);
+    width: 100%;
+    min-height: 430px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.big-img h1{
+    color: white;
+    font-size: 2rem;
+    margin-top: 80px;
+    font-weight: bold;
+}
+.big-img a{
+    color: white;
+    margin-top: -250px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+/* Latest Deals Done */
+
 /* Join Section */
 .join{
     background-image: url(./assets/news-letter-bg.png);
@@ -263,28 +365,7 @@ footer{
 .footer-social li{
     list-style: none;
 }
-
-
 /* Footer Done */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -331,7 +412,7 @@ footer{
     .plant-section{
     max-width: 576px;
     margin: 0 auto;
-    margin-top: -40px;
+    padding-top: 20px;
     }
     .plant-title h1{
         font-size: 1.5rem;
@@ -385,6 +466,33 @@ footer{
     }
     /* PLS Done */
 
+    /* Latest Deals */
+    .latest-deals-title h1{
+        font-size: 1.8rem;
+    }
+    .latest-deals-title p{
+        max-width: 480px;
+        font-size: .9rem;
+    }
+    .latest-deals-img{
+        grid-template-columns: 1fr;
+    }
+    .small-img-2{
+        margin-top: 0px;
+    }
+    .big-img{
+        min-height: 205px;
+    }
+    .big-img h1{
+        font-size: 1.5rem;
+        margin-top: 40px;
+    }
+    .big-img a{
+        margin-top: -80px;
+        font-size: 1.3rem;
+    }
+    /* Latest Deals Done */
+
     /* Join */
     .join{
     height: 270px;
@@ -428,6 +536,9 @@ footer{
     }
     .footer-social2{
         margin-bottom: 40px;
+        gap: none;
     }
     /* Footer Done */
 }
+
+/* Mobile Responsive Complete */
